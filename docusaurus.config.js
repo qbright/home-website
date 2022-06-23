@@ -62,7 +62,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Front Talk11',
+        title: 'Front Talk',
         logo: {
           alt: 'Front Talk',
           src: 'img/logo.png',
