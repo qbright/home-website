@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Front Talk',
   tagline: 'front end talk',
-  url: 'https://front-talk.imzqg.top/',
+  url: 'https://ft.imzqg.top/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
