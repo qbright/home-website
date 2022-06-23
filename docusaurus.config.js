@@ -7,7 +7,7 @@ const packageInfo = require('./package.json');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Front Talk',
-  tagline: 'front end talk',
+  tagline: 'talk about front end',
   url: 'https://ft.imzqg.top/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
