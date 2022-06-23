@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">前端杂谈,杂而不淡</h1>
-        <p className="hero__subtitle">front-end talk
+        <p className="hero__subtitle">front-end talk1
         </p>
         <div className={styles.buttons}>
           <Link
