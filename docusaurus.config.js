@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const packageInfo = require('./package.json');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Front Talk',
@@ -122,7 +122,7 @@ const config = {
           // },
 
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} zqbright, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} zqbright, Inc. Built with Docusaurus. ${packageInfo.version}`,
       },
       prism: {
         theme: lightCodeTheme,
