@@ -1,7 +1,9 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-
+import WordCloud from 'wordcloud';
+import { useEffect, useRef } from 'react';
+import wordcloudList from './wordcloudList';
 const FeatureList = [
   {
     title: 'Easy to Use',
@@ -50,15 +52,26 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
+  const divRef =  useRef();
+  useEffect(() => {
+    WordCloud(divRef.current,{
+      gridSize: 18,
+      weightFactor: 3,
+      fontFamily: 'Finger Paint, cursive, sans-serif',
+      color: '#e4e4a6',
+      // hover: window.drawBox,
+      backgroundColor: 'transparent',
+      list:wordcloudList
+    } );
+    console.log(divRef);
+  });
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+        <div className="row" style={{ height: '400px' }} ref={ divRef }>
         </div>
       </div>
     </section>
   );
+
 }

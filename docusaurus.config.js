@@ -68,18 +68,21 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+
+              {
+                label: 'Email',
+                href: 'mailto:zqbright@gmail.com',
+                position:'right'
+              },
+
+      
+
           {
-            href: 'https://github.com/qbright/note-book',
+            href: 'https://github.com/qbright',
             label: 'GitHub',
             position: 'right',
           },
+          
         ],
       },
       footer: {
