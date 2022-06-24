@@ -59,7 +59,6 @@ export default function HomepageFeatures() {
       weightFactor: 3,
       fontFamily: 'Finger Paint, cursive, sans-serif',
       color: '#e4e4a6',
-      // hover: window.drawBox,
       backgroundColor: 'transparent',
       list:wordcloudList
     } );
