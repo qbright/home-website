@@ -1,12 +1,12 @@
 {
   "name": "home-website",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "npm version patch && docusaurus build",
-    "build-test":"docusaurus build",
+    "build-test": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "node deploy.js",
     "clear": "docusaurus clear",
