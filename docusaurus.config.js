@@ -69,14 +69,11 @@ const config = {
         },
         items: [
 
-              {
-                label: 'Email',
-                href: 'mailto:zqbright@gmail.com',
-                position:'right'
-              },
-
-      
-
+          {
+            label: 'Email',
+            href: 'mailto:zqbright@gmail.com',
+            position:'right'
+          },
           {
             href: 'https://github.com/qbright',
             label: 'GitHub',

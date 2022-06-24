@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
@@ -33,6 +34,12 @@ export default function Home() {
     <Layout
       title={`Front talk`}
       description="Front talk">
+      <Head>
+        <script>
+          console.log(123) ;
+        </script>
+        <link rel='stylesheet' href="//ft.imzqg.top/_fonts/fonts.css"></link>
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

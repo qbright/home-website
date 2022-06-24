@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -18,17 +20,6 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-/* [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-} */
-
 [data-theme='dark'] {
   --ifm-color-primary: #ff9933;
   --ifm-color-primary-dark: #ff8a14;
@@ -40,11 +31,3 @@
 }
 
 
-/* latin */
-@font-face {
-  font-family: 'Finger Paint';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.googlefonts.cn/s/fingerpaint/v15/0QInMXVJ-o-oRn_7dron8YW-9JzT0gBOsg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
