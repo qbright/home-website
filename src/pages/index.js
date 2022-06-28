@@ -35,9 +35,6 @@ export default function Home() {
       title={`Front talk`}
       description="Front talk">
       <Head>
-        <script>
-          console.log(123) ;
-        </script>
         <link rel='stylesheet' href="//ft.imzqg.top/_fonts/fonts.css"></link>
       </Head>
       <HomepageHeader />

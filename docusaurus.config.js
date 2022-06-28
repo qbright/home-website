@@ -129,6 +129,17 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    themes: [
+      [
+        "@easyops-cn/docusaurus-search-local",
+        {
+          hashed: true,
+          language: ["en", "zh"],
+          highlightSearchTermsOnTargetPage: true,
+          explicitSearchResultPath: true,
+        },
+      ],
+    ],
 };
 
 module.exports = config;
