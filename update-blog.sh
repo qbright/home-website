@@ -1,0 +1,1 @@
+cd ./blog && git pull && cd ../ && git add . && git commit -m "feat: update blog"
