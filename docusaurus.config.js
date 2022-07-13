@@ -44,12 +44,11 @@ const config = {
           anonymizeIP: true,
         },
         blog: {
+          blogSidebarTitle: 'All Blogs',
+          blogTitle: 'Front talk',
+          blogDescription: '前端杂谈',
+          postsPerPage: 'ALL',
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
